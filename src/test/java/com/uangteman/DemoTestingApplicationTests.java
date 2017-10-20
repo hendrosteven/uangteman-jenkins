@@ -19,7 +19,7 @@ public class DemoTestingApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		Assert.assertEquals(10, hitungService.add(10, 10));
+		Assert.assertEquals(20, hitungService.add(10, 10));
 	}
 
 }
